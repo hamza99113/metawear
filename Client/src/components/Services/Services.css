@@ -1,0 +1,67 @@
+.services {
+  padding: 0 2rem 0 2rem;
+  display: flex;
+  height: 90vh;
+  margin-bottom: 8rem;
+  margin-top: 11.5rem;
+  margin-bottom: 13rem;
+}
+.awesom {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.awesom > :nth-child(1) {
+  color: var(--text);
+  font-size: 3.1rem;
+  font-weight: bold;
+}
+.awesom > :nth-child(2) {
+  color: var(--Black);
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+.awesom > :nth-child(3) {
+  color: var(--gray);
+  font-size: 14px;
+  margin-top: 1rem;
+}
+.s-button {
+  width: 8rem;
+  height: 2rem;
+  margin-top: 1rem;
+  font-size: 17px;
+}
+.cards {
+  position: relative;
+}
+.cards > * {
+  position: absolute;
+}
+.s-blur2 {
+  left: -33rem;
+  top: 16rem;
+}
+
+.s-blur1 {
+  top: 19rem;
+  left: 23rem;
+}
+@media screen and (max-width: 480px) {
+  .services {
+    margin-top: 46rem;
+    flex-direction: column;
+    gap: 5rem;
+    height: 66rem;
+    padding: 0;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 18rem;
+  }
+  .cards > * {
+    position: static;
+  }
+}
